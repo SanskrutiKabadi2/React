@@ -37,7 +37,7 @@ function Profile({userName}){
         <>
         <p>User Profile</p>
         <h2>{!user? "user Log Out":user.name}</h2>
-        <button onClick={logout}>logOut</button>
+        <button onClick={logout}>{!user? "LogIn":"LogOut"}</button>
         </>
 
     );
