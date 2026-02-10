@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import { Routes, Route } from "react-router-dom";
 import { useState } from 'react';
+import Login from './login.js';
+import Home from './home.js';
 
 function App() {
   const [isLogged,setIsLogged]=useState(false);
